@@ -6,6 +6,7 @@ def sum():
 
 def menu():
     print("Functionalities")
+     print("hehe")
 
 menu()
 cont = True

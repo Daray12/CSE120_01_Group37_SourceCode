@@ -39,5 +39,7 @@ while True:
             pass
         elif special_user_input == "4":
             print(quadratic_formula())
+        elif special_user_input == "5":
+            print(gcd())
         else:
             print("Invalid input. Please try again.")

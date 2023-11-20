@@ -19,7 +19,7 @@ def specialFunctionsMenu():
     print('2 - derivatives')
     print('3 - factorization')
     print('4 - quadratic formula')
-    print('5 - ')
+    print('5 - gcd')
 # Function to perform addition
 def add(x, y):
     return x + y
@@ -70,3 +70,9 @@ def quadratic_formula():
         print("x is only equal to", x1)
     else:
         print("there is no real root")
+
+def gcd():
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    return math.gcd(num1, num2)
+
